@@ -23,13 +23,3 @@
             # (HINT: replace __ with part of the error message.)
             self.assertMatch(__, ex.args[0])
     
-    def test_slicing_lists(self):
-        noms = ['peanut', 'butter', 'and', 'jelly']
-
-        self.assertEqual(__, noms[0:1])
-        self.assertEqual(__, noms[0:2])
-        self.assertEqual(__, noms[2:2])
-        self.assertEqual(__, noms[2:20])
-        self.assertEqual(__, noms[4:0])
-        self.assertEqual(__, noms[4:100])
-        self.assertEqual(__, noms[5:0])
