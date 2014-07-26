@@ -1,3 +1,8 @@
+    #couldn't solve this koan exercise
+    #I thought the answer in line 22 was NameError but that didn't seem to work
+    #I thought the answer in line 27 was 
+    #'name "some_method_none_does_not_know_about" is not defined'
+    #but that didn't seem to work 
      def test_what_exception_do_you_get_when_calling_nonexistent_methods(self):
         """
         What is the Exception that is thrown when you call a method that does
